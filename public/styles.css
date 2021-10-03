@@ -11,12 +11,13 @@
     background-color: #d6e4f0;
     outline: 1.5px solid black;
   }
-  .top-section img {
+  .img-top-section {
     height: 25vh;
     background-position: center;
     background-attachment: fixed;
     background-size: auto;
     background-clip: border-box;
+    overflow: hidden;
   }
 
   .img-container {
@@ -59,10 +60,6 @@
     text-align: center;
   }
 
-  .aboutme h4 {
-    padding-top: 1rem;
-  }
-
   .aboutme p {
     padding-top: 1rem;
   }
@@ -72,6 +69,10 @@
     align-items: flex-end;
     justify-content: center;
     padding-top: 10rem;
+  }
+
+  .aboutme-semidescription{
+    padding-top: 1rem
   }
   .proyects {
     height: 100vh;
